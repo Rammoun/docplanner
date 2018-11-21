@@ -1,0 +1,8 @@
+.midlist{
+list-style-image: url(https://raw.githubusercontent.com/Rammoun/Doc-Planner/master/sygnet.png);
+display: flex; flex-wrap: wrap;  align-content: center; flex-basis: 70%;
+}
+.midlist li{
+  margin-right: 10%; font-size: 140%; font-weight: bold;
+}
+.midlist li>a{color: grey; text-decoration: none;}

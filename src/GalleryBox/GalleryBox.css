@@ -1,0 +1,37 @@
+.imgalt{
+  color: grey;
+  font-size: 120%;
+  text-decoration: none; 
+}
+.footer{
+  display: flex; 
+  justify-content: space-around;
+}
+.btn{
+  color: wheat; 
+  background-color: #1662c6; 
+  padding: 2% 4%;
+  border: none; border-radius: 6px;
+  text-decoration: none;
+}
+.imgbox{
+  flex-basis: 25%; margin: 2%;  
+}
+.imgbox img{ width: 100%; 
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  margin-bottom: 4%;
+}
+.imglink{
+  text-decoration: none; }
+  
+@media only screen and (min-width : 322px) and (max-width : 768px){
+  .imgbox{
+    flex-basis: 40%; margin: 2%;  
+  }
+ }
+ @media only screen and (min-width : 768px) and (max-width : 1024px){
+  .imgbox{
+    flex-basis: 40%; margin: 2%;  
+  }
+}

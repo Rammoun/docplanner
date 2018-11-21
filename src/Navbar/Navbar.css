@@ -1,0 +1,13 @@
+.navbar{display: flex; padding: 2% 4%; position: fixed; top: 0;left: 0; background-color: white; z-index: 1000; width: 100%;}
+.navbar img{flex-basis: 50%;}
+.nav a{margin-right: 20px; text-decoration: none; color: grey;}
+.nav{margin-left: 20%;}
+.active, .nav a:hover{color: #00ccb1 !important;}
+@media only screen and (min-width : 322px) and (max-width : 768px){
+  .navbar{
+    flex-wrap: wrap;
+  }
+  }
+  @media only screen and (max-width : 321px) {.double{
+    flex-wrap: wrap;
+  }}
