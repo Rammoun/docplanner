@@ -1,0 +1,22 @@
+.bigbox{
+    width: 40%;
+    border-radius: 10px; background-color: #ade;
+    color: white;
+    overflow: hidden; text-align: left;
+    padding: 0 2%;
+} 
+.green{background-color: #00ccb1;}
+.blue{background-color: #3d83df;}
+.lowline{display: flex; align-items: flex-start; justify-content: flex-end;}
+.bigbox select{flex-basis: 30%; margin-left: 5%; padding: 1%; border-radius: 5px; }
+.bigbox img{flex-basis: 67%; position: relative; right: -25%;}
+@media only screen and (min-width : 322px) and (max-width : 768px){
+    .bigbox{
+        width: 80%; margin-bottom: 2%;
+    } 
+}
+@media only screen and (max-width : 321px) {
+    .bigbox{
+        width: 80%; margin-bottom: 2%;
+    }
+}
